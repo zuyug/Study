@@ -1,5 +1,13 @@
 name: Deploy Study Notes
 
+# This workflow is intentionally disabled because GitHub Pages is not
+# available for this private repository on the current GitHub plan.
+#
+# To enable later:
+# 1. Make the repository public, or use a plan that supports Pages for private repos.
+# 2. Rename this file to `.github/workflows/deploy.yml`.
+# 3. Enable Pages with GitHub Actions as the source.
+
 on:
   push:
     branches:
@@ -24,8 +32,6 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
