@@ -1,4 +1,0 @@
-interface:
-  display_name: "Study Note HTML Updater"
-  short_description: "Add answered study topics to the categorized HTML note."
-  default_prompt: "Use $study-note-html-updater to add the latest answered topic to my study HTML note."
