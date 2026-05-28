@@ -1,0 +1,100 @@
+:root {
+  --md-text-font: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  letter-spacing: 0;
+}
+
+.md-typeset h1 {
+  font-weight: 800;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.35rem;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+}
+
+.note-meta {
+  display: grid;
+  gap: 0.25rem;
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.35rem;
+  background: var(--md-default-bg-color);
+}
+
+.note-meta strong {
+  color: var(--md-primary-fg-color);
+}
+
+@media screen and (max-width: 640px) {
+  html,
+  body,
+  .md-main,
+  .md-main__inner,
+  .md-content,
+  .md-content__inner {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .md-typeset {
+    font-size: 0.78rem;
+    line-height: 1.72;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+
+  .md-typeset h1 {
+    max-width: calc(100vw - 2rem);
+    font-size: 1.32rem !important;
+    line-height: 1.32 !important;
+    white-space: normal !important;
+    word-break: break-all !important;
+    overflow-wrap: anywhere !important;
+  }
+
+  .md-typeset h2 {
+    font-size: 1.22rem;
+    line-height: 1.32;
+  }
+
+  .md-typeset p,
+  .md-typeset li,
+  .md-typeset .admonition,
+  .note-meta {
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+
+  .md-typeset table:not([class]) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    word-break: keep-all;
+  }
+
+  .md-tag {
+    margin-bottom: 0.25rem;
+    white-space: normal;
+  }
+
+  .md-tags {
+    display: none !important;
+  }
+}

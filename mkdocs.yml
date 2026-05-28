@@ -1,0 +1,70 @@
+site_name: Study Notes
+site_description: 질문과 답변으로 쌓아가는 개인 학습 노트
+site_url: https://zuyug.github.io/Study/
+repo_url: https://github.com/zuyug/Study
+repo_name: zuyug/Study
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ko
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 홈: index.md
+  - 경제:
+      - economy/index.md
+      - PER/PBR/ROE: economy/per-pbr-roe.md
+  - 코딩:
+      - coding/index.md
+  - AI:
+      - ai/index.md
+  - 생활:
+      - life/index.md
+  - 복습:
+      - review/index.md
+      - Anki 카드: review/anki-cards.md
+  - 태그: tags.md

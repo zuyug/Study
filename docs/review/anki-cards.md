@@ -1,0 +1,30 @@
+---
+title: Anki 카드
+tags:
+  - 복습
+  - Anki
+  - active-recall
+---
+
+# Anki 카드
+
+이 페이지는 노트에서 뽑은 복습 카드 목록입니다.
+
+## 가져오기 파일
+
+[anki-cards.csv](anki-cards.csv)를 Anki에서 가져오면 됩니다.
+
+권장 필드:
+
+```text
+Deck,Front,Back,Tags,Source
+```
+
+## 현재 카드
+
+| Deck | Front | Back | Tags | Source |
+| --- | --- | --- | --- | --- |
+| Study::경제 | PER은 무엇을 보는 지표인가? | 회사 이익에 비해 주가가 비싼지 싼지 보는 지표입니다. | 경제 주식 PER 가치평가 | economy/per-pbr-roe.md |
+| Study::경제 | PBR은 무엇을 보는 지표인가? | 회사 순자산에 비해 주가가 비싼지 싼지 보는 지표입니다. | 경제 주식 PBR 가치평가 | economy/per-pbr-roe.md |
+| Study::경제 | ROE는 무엇을 보는 지표인가? | 회사가 자기자본으로 얼마나 효율적으로 이익을 냈는지 보는 지표입니다. | 경제 주식 ROE 재무제표 | economy/per-pbr-roe.md |
+| Study::경제 | PER/PBR과 ROE의 차이는? | PER/PBR은 가격이 싼지 비싼지, ROE는 회사가 돈을 잘 버는지 봅니다. | 경제 주식 재무제표 | economy/per-pbr-roe.md |
