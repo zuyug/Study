@@ -55,6 +55,7 @@ extra_css:
 
 nav:
   - 홈: index.md
+  - 모바일 사용법: mobile-usage-report.html
   - 경제:
       - economy/index.md
       - PER/PBR/ROE: economy/per-pbr-roe.md
