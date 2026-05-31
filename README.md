@@ -28,11 +28,11 @@ mkdocs build --strict
 
 ## GitHub에서 보기
 
-현재 저장소가 private이고 현재 GitHub 플랜에서 private repository Pages가 지원되지 않아 GitHub Pages 자동 배포는 비활성 템플릿으로 보관합니다.
+이 저장소는 public이며 GitHub Pages를 GitHub Actions로 배포합니다.
 
 - GitHub에서는 `docs/` 아래 Markdown 파일을 바로 볼 수 있습니다.
-- 휴대폰에서도 GitHub 앱/모바일 웹에서 Markdown 노트를 볼 수 있습니다.
-- 나중에 저장소를 public으로 바꾸거나 private Pages 지원 플랜을 쓰면 `.github/workflows/deploy-pages.yml.disabled`를 `.github/workflows/deploy.yml`로 바꾸고 Pages를 GitHub Actions로 켜면 됩니다.
+- Pages 배포가 완료되면 `https://zuyug.github.io/Study/`에서 웹사이트처럼 볼 수 있습니다.
+- 휴대폰에서는 GitHub 앱/모바일 웹 또는 Pages 주소로 볼 수 있습니다.
 
 ## 노트 추가 규칙
 
