@@ -59,6 +59,8 @@ nav:
   - 경제:
       - economy/index.md
       - PER/PBR/ROE: economy/per-pbr-roe.md
+      - PSR/EV/EBITDA 분위수: economy/psr-ev-ebitda-percentile.md
+      - Breadth 보조 지표: economy/market-breadth-indicators.md
   - 코딩:
       - coding/index.md
   - AI:
